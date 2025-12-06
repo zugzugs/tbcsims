@@ -41,7 +41,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-            repository-name: wowsims/pages-deploy
+            repository-name: zugzugs/pages-deploy
             branch: main
             folder: dist/tbc
             target-folder: tbc
