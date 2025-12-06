@@ -148,7 +148,6 @@ This step is where most of the magic happens. A few highlights to start understa
   - `sim/core/character.go` A Character holds all the stats/cooldowns/gear/etc common to any WoW character. Each Agent has a Character that it controls.
 
 Read through the core code and some examples from other classes/specs to get a feel for what's needed. Hopefully `sim/core` already includes what you need, but most classes have at least 1 unique mechanic so you may need to touch `core` as well.
-
 Don't forget to write unit tests! Again, look at existing tests for examples. Run them with `make test` when you're ready.
 
 # Launch the site
